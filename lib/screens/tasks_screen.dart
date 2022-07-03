@@ -52,8 +52,9 @@ class _TasksScreenState extends State<TasksScreen> {
                 ),
               ],
             ),
+            //wtf
             Text(
-              '4 Tasks',
+              '${taskList.length} Tasks',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 18,
